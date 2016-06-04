@@ -1,6 +1,6 @@
 {
   "name": "find-and-replace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "tiny module for finding an object in an array and returning a copy of the array with the object replaced",
   "main": "index.js",
   "scripts": {
