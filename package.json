@@ -1,0 +1,34 @@
+{
+  "name": "find-and-replace",
+  "version": "0.0.1",
+  "description": "tiny module for finding an object in an array and returning a copy of the array with the object replaced",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "patch": "npm-release patch",
+    "minor": "npm-release minor",
+    "major": "npm-release major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodysalem/find-and-replace.git"
+  },
+  "keywords": [
+    "find",
+    "replace",
+    "object",
+    "array",
+    "copy",
+    "immutable"
+  ],
+  "author": "Moody Salem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moodysalem/find-and-replace/issues"
+  },
+  "homepage": "https://github.com/moodysalem/find-and-replace#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "npm-release": "^1.0.0"
+  }
+}
