@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js",
+    "dev": "mocha test.js --watch",
     "patch": "npm-release patch",
     "minor": "npm-release minor",
     "major": "npm-release major"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moodysalem/find-and-replace.git"
+    "url": "git+https://github.com/moodysalem/find-and-replace-array.git"
   },
   "keywords": [
     "find",
@@ -24,9 +25,9 @@
   "author": "Moody Salem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moodysalem/find-and-replace/issues"
+    "url": "https://github.com/moodysalem/find-and-replace-array/issues"
   },
-  "homepage": "https://github.com/moodysalem/find-and-replace#readme",
+  "homepage": "https://github.com/moodysalem/find-and-replace-array#readme",
   "devDependencies": {
     "mocha": "^2.5.3",
     "npm-release": "^1.0.0"

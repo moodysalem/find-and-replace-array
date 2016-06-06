@@ -16,10 +16,6 @@ var getMatcher = function (matcher) {
     return function (objectOne, objectTwo) {
       return matcher(objectOne, objectTwo);
     };
-  } else {
-    return function () {
-      return false;
-    };
   }
 };
 

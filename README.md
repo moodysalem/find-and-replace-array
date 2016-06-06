@@ -1,13 +1,14 @@
-# find-and-replace
-tiny JS module for finding an object in an array and returning a copy of the array with the object replaced
+# find-and-replace-array
+Small plain JavaScript function for finding an object in an array and 
+returning a copy of the array with the matching items replaced.
 
-# signature
+Used in React components for updating individual items in immutable 
+arrays
+
+# Function Signature
 findAndReplace(Array array, Object object, Function/string matcher);
 
-# example
+# Examples
 
-    var findAndReplace = require('find-and-replace-array');
-    // by id is default behavior
-    var newArray = findAndReplace([ {id:1, name: 'Moody'} ], {id: 1, name: 'John'})
-    // [ {id: 1, name: 'John'} ]
-    
+See the [test.js](https://github.com/moodysalem/find-and-replace-array/blob/master/test.js) 
+file for example usages 
